@@ -1,8 +1,9 @@
-import { useState } from 'react'
-import './App.css'
-import { TodoList } from './components/TodoList'
-import { TodoAdd } from './components/TodoAdd'
-import { useTodo } from './hooks/UseTodo'
+ import { useState } from 'react'
+ import './App.css'
+ import { TodoList } from './components/TodoList'
+ import { TodoAdd } from './components/TodoAdd'
+ import { useTodo } from './hooks/UseTodo'
+
 
 function App() {
   const {
@@ -39,5 +40,4 @@ function App() {
     </>
   )
 }
-
 export default App
